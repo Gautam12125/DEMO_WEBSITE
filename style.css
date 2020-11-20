@@ -276,3 +276,17 @@ tbody tr td i{
     padding: 0;
     margin-left: 50%;
 }
+
+#row
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(253, 205, 205);
+}
+#row-1
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
