@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: #F1F3F6;
+}
+#sidebar{
+    background-color: #0c2459;
+    width:13%;
+    height:50%;
+    margin-top:1%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px ;
+    display: inline-block;
+    z-index: 9999;
+    box-shadow: rgb(169 167 167) 6px 1px 13px 3px;
+
+}
+#logo{
+    width: 60%;
+    height: 20%;
+    margin-left:20PX;
+}
+#slidebar-link
+{
+    font-size: .95rem;
+    padding-left: 12%;  
+    padding-top: 5%;
+    list-style-type: none;
+    line-height:45px;
+}
+#slidebar-link a{
+    color: white;
+    font-weight:700;    
+    text-decoration: none;
+}
+hr{
+    height: 2px;
+    background-color: white;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+#pow {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#tag{
+    width: 40%;
+    height: 20%;
+    margin-left:28%;
+    margin-bottom: 10%;
+}
+#div1{
+    width: 100%;
+    height:5%;
+    margin-left:1%;
+    box-shadow: 5px 5px rgb(206, 204, 204);
+}
+nav{
+    padding-top: 2%;
+}
+nav h3{
+    font-weight: 700;
+}
+nav input[type=text]{
+    position: absolute;;
+    top:4%;
+    left:70%;
+    border-radius: 20px;
+    
+    box-shadow: 2px 2px 2px 2px rgb(206, 204, 204);
+}
+nav i{
+    position: absolute;
+    top:4.3%;
+    left:81%;
+    border-radius: 20px;
+    border-color: transparent;
+    
+}
+#bell{
+    position: absolute;
+    top:4.3%;
+    left:86%;
+}
+#setting{
+    position: absolute;
+    top:4.3%;
+    left:90.5%;
+}
+#avtar{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top:3.5%;
+    left:95%;
+    border-radius: 50%;
+}
+.line{
+    width: 100%;
+    height: 2%;
+    border: 1px solid gray;
+}
+#line-1{
+    color: gray;
+    font-weight: 700;
+    margin: 1%;
+}
+#box2{
+    background-color: white;
+    width: 95%;
+    height:85vh;
+    margin: 2%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+
+
+
+.dropdown {
+    width: 15rem;
+  position: relative;
+  display: inline-block;
+}
+.dropdown-select{
+    background-color: white;
+    color:#0c2459;
+    margin-top: 6px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    border-radius:2px;
+    cursor: pointer;
+    
+  }
+  .dropdown-content {
+    background-color: #f9f9f9;
+    position: absolute;
+    top:110%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s linear, visibility 0.2s linear;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+  
+  
+.dropdown-content a {
+    display: block;
+    color: black;
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+.dropdown:hover .dropdown-content{
+    opacity: 1;
+    visibility: visible;
+}  
+.drop {
+ width: 12rem;
+  position: relative;
+  display: inline-block;
+}
+.dropdown-list{
+    background-color: white;
+    color:#0c2459;
+    margin-top: 6px;
+    margin-left:16px;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    border-radius:15px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+  }
+  .dropdown-cont {
+    background-color: #f9f9f9;
+    position: absolute;
+    top:110%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s linear, visibility 0.2s linear;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+  
+  
+.dropdown-cont a {
+    display: block;
+    color: black;
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+.drop:hover .dropdown-cont{
+    opacity: 1;
+    visibility: visible;
+}  
+#table1
+{
+    margin-top:3%;
+    margin-left: 2%;
+    
+}
+#table1 thead{
+    color:#0c2459;
+    
+}
+#table1 thead tr th{
+    width: 11%;
+    
+}
+tbody{
+    background-color: rgb(236, 230, 230);
+    
+}
+tbody tr{
+    font-weight: 700;
+}
+tbody tr td{
+      padding: 6px;
+}
+tbody tr td i{
+    align-items: center;
+    
+}
+.fa-whatsapp  {
+    border-radius: 50%;
+    color:#fff;
+    background:
+    linear-gradient(#25d366,#25d366)10px 84%/15px 15px no-repeat,
+    radial-gradient(#25d366 59%,transparent 0);
+  }
+.button
+{
+    color: rgb(7, 250, 7);
+    font-weight: 900;
+    position: relative;
+    right: 12%;
+    width: 87px;
+    
+    border-radius:5px 5px 5px 5px;
+    border-color: white;
+    box-shadow: rgb(169 167 167) 1px 1px 5px 1px;
+    background-color: white;
+}
+#model-img{
+    width: 44px;
+    height:38px;
+    border-radius: 50%;
+}
+#model-button
+{
+    margin-left:50%;
+    width: 25%;
+}
+.btn.btn-primary
+{
+    padding: 0;
+    margin-left: 50%;
+}
